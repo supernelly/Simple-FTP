@@ -261,7 +261,7 @@ s.send(pwdParam)
 res = s.recv(MAX_BYTES)
 print(res)
 
-# Run main application loop if successfull
+# Run main application loop if successful
 if str(res[:3]) == "230":
     print("FTP > Type 'help' for help")
     while True:
